@@ -63,11 +63,5 @@
   "license": "MIT",
   "devDependencies": {
     "commander": "~2.8.1"
-  },
-  "readme": "pimatic-smartmeter\n===============\n\n[![Join the chat at https://gitter.im/saberone/pimatic-smartmeter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/saberone/pimatic-smartmeter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\nReading \"Smartmeter\" energy usage through P1 port.\n\nInstallation\n------------\nTo enable the smartmeter plugin add this to the plugins in the config.json file.\n\n```\n...\n{\n  \"plugin\": \"smartmeter\"\n  \n}\n...\n```\n\nand add the following to the devices\n\n```\n{\n  \"id\": \"smartmeter\",\n  \"class\": \"Smartmeterdevice\",\n  \"name\": \"Smartmeter\",\n  \"serialport\": \"/dev/ttyUSB0\",\n  \"baudRate\" : 9600,\n  \"dataBits\" : 7,\n  \"parity\" : \"even\",\n  \"stopBits\" : 1,\n  \"flowControl\" : true\n}\n```\n\nThen install through the standard pimatic plugin install page.\n\n\nConfiguration\n-------------\nYou can configure what serialport to use, and the serialport settings. You do this in the devices section, as you can see in the installation section.\n\n\n\"It might work on your machine\"-version\n---------------------------------------\nThe current version has been tested on my own P1 smartmeter, and some Pimatic users have reported that it works for them too.\nI cannot give any guarantees that it will work on every P1 smartmeter. But to try and improve support for different P1 smartmeters\n, I have added a simple commandline node.js app/tool that dumps the P1 data straight to a file. Please share this dump if you want\nyour P1 smartmeter brand/model to be supported. Or better yet, fork + create pull request. ;)\n\nRun the following commands from the root of this plugin.\n\n```\nnpm install\nchmod +x logP1.js\n./logP1.js\n```\n\nIf you have issues, please create an issue overe here : https://github.com/saberone/pimatic-smartmeter/issues\n",
-  "readmeFilename": "README.md",
-  "_id": "pimatic-smartmeter2@0.0.18",
-  "dist": {
-    "shasum": "378f4c5e18e43c1132ab29c413db54b4446af74b"
   }
 }
