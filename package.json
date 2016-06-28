@@ -6,26 +6,6 @@
     "email": "saberone@gmail.com",
     "url": "https://github.com/saberone"
   },
-  "author_name": "Saber Karmous <saberone@gmail.com> (https://github.com/saberone/)",
-  "author_url": "https://github.com/saberone/",
-  "contributors": [
-    {
-      "name": "Michael Rave"
-    },
-    {
-      "name": "incmve",
-      "url": "http://www.maredana.nl"
-    },
-    {
-      "name": "Marcus Wittig",
-      "url": "https://github.com/mwittig"
-    },
-    {
-      "name": "Wiebe Nieuwenhuis",
-      "url": "http://www.wiebenieuwenhuis.nl"
-    }
-  ],
-  "npmUser": "saberone",
   "main": "pimatic-smartmeter2",
   "files": [
     "pimatic-smartmeter2.coffee",
@@ -45,10 +25,6 @@
     "type": "git",
     "url": "https://github.com/rick00001/Smartmeter2.git"
   },
-  "bugs": {
-    "url": "https://github.com/rick00001/Smartmeter2/issues",
-    "email": "rickflierman@gmail.com"
-  },
   "configSchema": "pimatic-smartmeter2-config-schema.coffee",
   "dependencies": {
     "serialport": "2.0.6"
@@ -59,9 +35,5 @@
   "engines": {
     "node": ">0.8.x",
     "npm": ">1.1.x"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "commander": "~2.8.1"
   }
 }
