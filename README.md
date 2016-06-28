@@ -12,7 +12,7 @@ To enable the smartmeter plugin add this to the plugins in the config.json file.
 ```
 ...
 {
-  "plugin": "smartmeter"
+  "plugin": "Smartmeter2"
   
 }
 ...
@@ -22,9 +22,9 @@ and add the following to the devices
 
 ```
 {
-  "id": "smartmeter",
+  "id": "Smartmeter2",
   "class": "Smartmeterdevice",
-  "name": "Smartmeter",
+  "name": "Smartmeter2",
   "serialport": "/dev/ttyUSB0",
   "baudRate" : 9600,
   "dataBits" : 7,
@@ -57,4 +57,4 @@ chmod +x logP1.js
 ./logP1.js
 ```
 
-If you have issues, please create an issue overe here : https://github.com/saberone/pimatic-smartmeter/issues
+If you have issues, please create an issue overe here : https://github.com/rick00001/Smartmeter2/issues
