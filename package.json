@@ -34,7 +34,7 @@
     "device-config-schema.coffee",
     "p1meterdata.js"
   ],
-  "homepage": "https://github.com/saberone/pimatic-smartmeter.git",
+  "homepage": "https://github.com/rick00001/Smartmeter2.git",
   "keywords": [
     "pimatic",
     "devices"
@@ -43,11 +43,11 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/saberone/pimatic-smartmeter.git"
+    "url": "https://github.com/rick00001/Smartmeter2.git"
   },
   "bugs": {
-    "url": "https://github.com/saberone/pimatic-smartmeter.git/issues",
-    "email": "saberone@gmail.com"
+    "url": "https://github.com/rick00001/Smartmeter2/issues",
+    "email": "rickflierman@gmail.com"
   },
   "configSchema": "pimatic-smartmeter2-config-schema.coffee",
   "dependencies": {
@@ -69,7 +69,5 @@
   "_id": "pimatic-smartmeter2@0.0.18",
   "dist": {
     "shasum": "378f4c5e18e43c1132ab29c413db54b4446af74b"
-  },
-  "_from": "pimatic-smartmeter2@0.0.18",
-  "_resolved": "https://registry.npmjs.org/pimatic-smartmeter/-/pimatic-smartmeter-0.0.18.tgz"
+  }
 }
