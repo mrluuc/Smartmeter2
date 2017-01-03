@@ -24,7 +24,7 @@ and add the following to the devices
 ```
 {
   "id": "Smartmeter2",
-  "class": "Smartmeterdevice",
+  "class": "Smartmeterdevice2",
   "name": "Smartmeter2",
   "serialport": "/dev/ttyUSB0",
   "baudRate" : 9600,
