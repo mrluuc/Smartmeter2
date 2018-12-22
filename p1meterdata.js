@@ -50,7 +50,7 @@ var P1DataStream = function (opts,logger) {
         var currentTariff = returnRegExResult(data, /^0-0:96.14.0\(0+(.*?)\)/m);
         var currentUsage = returnRegExResult(data, /^1-0:1.7.0\((.*?)\*/m);
         //var gasTotalUsage = returnRegExResult(data, /0-1:24\.3\.0(.*)\(m3\)[\r]?[\n]?\(0+(\d+\.\d+)\)/m, 2);
-        var gasTotalUsage = returnRegExResult(data, /^\(0+(\d+\.\d+)\)/m);
+        var gasTotalUsage = returnRegExResult(data, /^.*\((\d+\.\d+)\*m3\)/m);
         var dataGram = {
             tariffOneTotalUsage: tariffOneTotalUsage * 1,
             tariffTwoTotalUsage: tariffTwoTotalUsage * 1,
